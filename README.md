@@ -26,6 +26,9 @@ h1 {
   text=align:center;
 
 }
+
+#은 id
+.은 클래스
 #active
 .active
 a {
@@ -67,3 +70,43 @@ height나 width
 var name = 'english is bad language';
 alert("English is a West Germanic language that emerged in early medieval England and has since become a global lingua franca.[4][5][6] The namesake of the language is the Angles, one of the Germanic peoples" +name+ "that migrated to Britain after its Roman occupiers left. English is the most spoken language in the world, primarily due to the global influences of the former British Empire (succeeded by the Commonwealth of Nations) and the United States. It is the most widely learned second language in the world, with more second-language speakers than native speakers. However, English is only the third-most name name name eng spoken native language, after Mandarin Chinese and Spanish.[3]")
 name 이라는 변수에 'english is bad language' 를 저장 하고 이 name 변수를 사용 할때는 +변수이름+ 로 사용 할 수 있다
+
+
+if() {}
+C언어랑 똑같다.
+
+var는 변수를 선언할때 사용된다.
+
+var (배열이름) = [변수 항목 , 변수 항목];
+
+배열을 만들고 배열의 항목 갯수를 확인하고 싶으면
+배열이름.length를 입력하면 배열의 항목 갯수를 알려준다.
+
+배열에서 어떤 항목이 어디에 존재하는지 확인하고 싶으면
+배열이름.indexOf(항목이름);을 검색하면 내가 항목이름에 적은 값이
+배열에서 어디에 위치하는지 숫자로 알려준다.
+
+이미 선언 되어 있는 배열에 값을 집어 넣을때에는
+배열이름.push(항목이름); 으로 배열에 값을 넣을 수 있다.
+
+반복문
+    var i = 0;
+    while(i < 3){
+        document.write('<li>2</li>');
+        document.write('<li>3</li>');
+            i = i + 1;  
+    }
+        document.write('<li>4</li>');
+변수 선언 후 while 반복문의 조건이 참 또는 거짓이 되어서 반복문이 작동 되도록 한다.
+
+배열 + 반복문 가능
+
+    var arr = ['first', 'second','third'];
+    var i = 0;
+    while(i < arr.length){
+        document.write('<li>'+arr[i]+'</li>');
+
+            i = i + 1;  
+    }
+
+    
