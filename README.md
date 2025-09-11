@@ -109,4 +109,22 @@ var (배열이름) = [변수 항목 , 변수 항목];
             i = i + 1;  
     }
 
-    
+  
+JS 객체 생성
+var objectName = {
+  member1Name: member1Value,
+  member2Name: member2Value,
+  member3Name: member3Value,
+};
+
+객체에 소속된 함수 = 메소드 Method
+this => 본인을 가리킨다
+
+
+var
+변수를 선언. 추가로 동시에 값을 초기화.
+let
+블록 스코프 지역 변수를 선언. 추가로 동시에 값을 초기화.
+const
+블록 스코프 읽기 전용 상수를 선언.
+
